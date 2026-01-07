@@ -1,0 +1,26 @@
+{
+  "name": "AccuKnox-user-management-tests",
+  "version": "1.0.0",
+  "description": "OrangeHRM User Management E2E tests using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "e2e",
+    "orangehrm"
+  ],
+  "author": "AccuKnox",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.1"
+  }
+}
